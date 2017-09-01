@@ -1,0 +1,61 @@
+Info: 
+
+----
+
+Pagesettings: 
+
+----
+
+Title: Container 1
+
+----
+
+Showtitle: true
+
+----
+
+Showinnavi: false
+
+----
+
+Layout: zweiSpalten
+
+----
+
+Bgimg: 
+
+----
+
+Subline: Subline
+
+----
+
+Text: Haupttext
+
+----
+
+Previewsettings: 
+
+----
+
+Prewshow: ohne
+
+----
+
+Prewvon: 2016-10-26
+
+----
+
+Prewbis: 
+
+----
+
+Prewstyle: card
+
+----
+
+Prewimg: 
+
+----
+
+Prewtext: 

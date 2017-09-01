@@ -1,0 +1,92 @@
+Title: VELOVE
+
+----
+
+Author: marc
+
+----
+
+Description: 
+
+----
+
+Keywords: 
+
+----
+
+Phone: +41 78 625 96 35
+
+----
+
+Mail: marcrenegeiser@gmail.com
+
+----
+
+Address: 
+
+Hinterkirchweg 3
+4106 Therwil
+
+----
+
+Fonts: <link href="https://fonts.googleapis.com/css?family=Open+Sans:300|Ubuntu:300" rel="stylesheet">
+
+----
+
+Ffh: 'Ubuntu', sans-serif;
+
+----
+
+Ffp: 'Open Sans', sans-serif;
+
+----
+
+Icons: <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+----
+
+Bgimg: aesch.jpg
+
+----
+
+Bantyp: dyn
+
+----
+
+Showfz: extended
+
+----
+
+Logo: 
+
+----
+
+Cssfile: velove
+
+----
+
+Pgcontact: contact
+
+----
+
+Pgimpr: 
+
+----
+
+Pgagb: 
+
+----
+
+Facebook: 
+
+----
+
+Twitter: 
+
+----
+
+Linkedin: 
+
+----
+
+Pinterest: 

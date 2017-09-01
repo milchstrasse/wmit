@@ -1,0 +1,17 @@
+Info: 
+
+----
+
+Title: dritte Seite
+
+----
+
+Showtitle: false
+
+----
+
+Imagetoggle: def
+
+----
+
+Bgimg: 

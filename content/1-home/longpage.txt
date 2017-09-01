@@ -1,0 +1,25 @@
+Title: Startseite
+
+----
+
+Text: Lorem Ipsum
+
+----
+
+Showtitle: false
+
+----
+
+Subnavi: true
+
+----
+
+Imagetoggle: def
+
+----
+
+Bgimage: mrg-1180377.jpg
+
+----
+
+Bgimg: birs.jpg

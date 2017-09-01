@@ -1,0 +1,17 @@
+Info: 
+
+----
+
+Title: zweite Seite
+
+----
+
+Showtitle: false
+
+----
+
+Imagetoggle: def
+
+----
+
+Bgimg: 
