@@ -4,3 +4,9 @@
 [submodule "panel"]
 	path = panel
 	url = https://github.com/getkirby/panel.git
+[submodule "site"]
+	path = site
+	url = https://github.com/milchstrasse/site.git
+[submodule "assets"]
+	path = assets
+	url = https://github.com/milchstrasse/assets.git
