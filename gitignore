@@ -2,5 +2,5 @@
 /site/accounts
 /assets/avatars
 /thumbs/*
-/assets/.sass-cache
+/assets/sass-cache
 /assets/css

@@ -1,0 +1,25 @@
+Info: 
+
+----
+
+Title: unser Angebot
+
+----
+
+Innavi: true
+
+----
+
+Showtitle: true
+
+----
+
+Imagetoggle: def
+
+----
+
+Bgimg: 
+
+----
+
+Showfz: true

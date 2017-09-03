@@ -6,11 +6,11 @@ Pagesettings:
 
 ----
 
-Title: Rundum-IT-Service
+Title: WM IT & Services
 
 ----
 
-Showtitle: 
+Showtitle: true
 
 ----
 
@@ -18,7 +18,7 @@ Subline:
 
 ----
 
-Layout: zweiSpalten
+Layout: hero
 
 ----
 
@@ -42,7 +42,7 @@ Prewshow: ohne
 
 ----
 
-Prewvon: today
+Prewvon: 2017-02-18
 
 ----
 
@@ -62,8 +62,4 @@ Prewtext:
 
 ----
 
-Text: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata
-
-----
-
-Pgtype: singlepage
+Text: Herzlich Willkommen auf unserer Hompage

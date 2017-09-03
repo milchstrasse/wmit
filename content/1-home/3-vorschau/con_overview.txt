@@ -1,0 +1,41 @@
+Title: Vorschau für Angebot
+
+----
+
+Info: 
+
+----
+
+Pagesettings: 
+
+----
+
+Showtitle: 0
+
+----
+
+Subline: 
+
+----
+
+Layout: eineSpalte
+
+----
+
+Img: 
+
+----
+
+Bgimg: 
+
+----
+
+Showinnavi: 1
+
+----
+
+Pagecontent: 
+
+----
+
+Relatedpage: unser-angebot
