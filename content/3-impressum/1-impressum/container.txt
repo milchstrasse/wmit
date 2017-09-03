@@ -1,0 +1,85 @@
+Info: 
+
+----
+
+Pagesettings: 
+
+----
+
+Title: Impressum
+
+----
+
+Showtitle: true
+
+----
+
+Showinnavi: false
+
+----
+
+Layout: zweiSpalten
+
+----
+
+Bgimg: 
+
+----
+
+Subline: 
+
+----
+
+Text: 
+
+WM IT & Services GmbH & Co. KG
+
+Geschäftsführer Herr Dipl.-Ing. Matthias Junick
+
+Schmautzer-Büchl-Weg 13
+82266 Inning
+
+Tel.: 08143 / 444 790
+Fax: 08143 / 444 791
+
+Email: kontakt@wm-it-services.de
+
+Amtsgericht München
+HRA 74383
+
+##Hinweise
+Die Zusammenstellung der Inhalte dieser Webseite wurde mit der größtmöglichen Sorgfalt vorgenommen. Dennoch kann für die Vollständigkeit, Aktualität oder inhaltliche Richtigkeit der Inhalte keine Gewähr übernommen werden. Eine Haftung für eventuelle Schäden gleich welcher Art wird ausgeschlossen.
+
+Trotz sorgfältiger inhaltlicher Kontrolle übernehmen wir keine Haftung für die Inhalte externer Links. Für den Inhalt externer Seiten sind ausschließlich deren Betreiber verantwortlich.
+
+##Technische Umsetzung
+Marc René Geiser und Birgit von Dombrowski
+mit Kirby CMS
+
+----
+
+Previewsettings: 
+
+----
+
+Prewshow: ohne
+
+----
+
+Prewvon: 2017-02-19
+
+----
+
+Prewbis: 
+
+----
+
+Prewstyle: card
+
+----
+
+Prewimg: 
+
+----
+
+Prewtext: 

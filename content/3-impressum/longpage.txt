@@ -1,0 +1,25 @@
+Info: 
+
+----
+
+Title: Impressum
+
+----
+
+Showtitle: true
+
+----
+
+Imagetoggle: def
+
+----
+
+Bgimg: 
+
+----
+
+Showfz: true
+
+----
+
+Innavi: false

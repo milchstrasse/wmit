@@ -1,0 +1,57 @@
+Info: 
+
+----
+
+Pagesettings: 
+
+----
+
+Title: Individualsoftware
+
+----
+
+Showtitle: true
+
+----
+
+Showinnavi: false
+
+----
+
+Layout: zweiSpalten
+
+----
+
+Bgimg: 
+
+----
+
+Subline: Softwareentwicklung
+
+----
+
+Text: 
+
+Sowohl für kleine und mittelständische Betriebe, ohne oder mit unzureichender EDV-Unterstützung, als auch für Großbetriebe, mit oder ohne eigener EDV-Abteilung, erarbeitet unser kleines, effizientes Team praktikable, auf die jeweiligen Anforderungen zugeschnittene Softwarelösungen. Der Vorteil eines professionellen Anbieters besteht in der Konzentration auf die Dienstleistung „Entwicklung und Wartung von Software“. Da dies unser Kerngeschäft ist, sind unsere Prozesse und Qualitätskontrollen durch langjährige Erfahrung entstanden und werden ständig verbessert.
+
+Am Anfang des Entwicklungsprozesses steht ein präzises Verständnis der Funktionalität, die der Anwender und andere an der zu erstellenden Software interessierte Parteien benötigen. Dazu gehört die Dokumentation der konkreten Anforderungen ebenso wie die Kenntnis Ihres Geschäftsbereichs. Durch dieses Wissen können wir Ihnen eine kosteneffektive Software ohne teure, nie genutzte Sonderfunktionen erstellen. Darüber hinaus ersparen Ihnen gut durchdachte Grundkonzepte später teure Redesigns.
+
+----
+
+Previewsettings: 
+
+----
+
+Prewshow: mit
+
+----
+
+Prewstyle: card
+
+----
+
+Prewimg: 
+
+----
+
+Prewtext: Unser kleines, effizientes Team erarbeitet  praktikable, auf die jeweiligen Anforderungen zugeschnittene Softwarelösungen.

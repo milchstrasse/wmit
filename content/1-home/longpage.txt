@@ -22,4 +22,44 @@ Bgimage: mrg-1180377.jpg
 
 ----
 
-Bgimg: birs.jpg
+Bgimg: 
+
+----
+
+Showfz: true
+
+----
+
+Innavi: true
+
+----
+
+Showinnavi: false
+
+----
+
+Pgtype: longpage
+
+----
+
+Layout: zweiSpalten
+
+----
+
+Subline: 
+
+----
+
+Prewshow: ohne
+
+----
+
+Prewstyle: card
+
+----
+
+Prewimg: 
+
+----
+
+Prewtext: 

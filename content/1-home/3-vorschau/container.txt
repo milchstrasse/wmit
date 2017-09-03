@@ -1,0 +1,73 @@
+Title: Vorschau für Angebot
+
+----
+
+Info: 
+
+----
+
+Pagesettings: 
+
+----
+
+Showtitle: 
+
+----
+
+Subline: 
+
+----
+
+Layout: zweiSpalten
+
+----
+
+Img: 
+
+----
+
+Bgimg: 
+
+----
+
+Showinnavi: false
+
+----
+
+Pagecontent: 
+
+----
+
+Relatedpage: unser-angebot
+
+----
+
+Text: 
+
+----
+
+Previewsettings: 
+
+----
+
+Prewshow: ohne
+
+----
+
+Prewvon: today
+
+----
+
+Prewbis: 
+
+----
+
+Prewstyle: card
+
+----
+
+Prewimg: 
+
+----
+
+Prewtext: 

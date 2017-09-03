@@ -1,0 +1,33 @@
+Info: 
+
+----
+
+Pagesettings: 
+
+----
+
+Title: Ticker Startseite
+
+----
+
+Showtitle: false
+
+----
+
+Showinnavi: false
+
+----
+
+Layout: normal
+
+----
+
+Text: so, das ist jetzt unsere neue Website und sie wird ganz bald mit neuen Inhalten gefüllt.
+
+----
+
+Ashow: 2017-03-11
+
+----
+
+Eshow: 

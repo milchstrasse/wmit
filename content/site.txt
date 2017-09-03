@@ -1,4 +1,4 @@
-Title: VELOVE
+Title: WM IT&Services
 
 ----
 
@@ -14,26 +14,26 @@ Keywords:
 
 ----
 
-Phone: +41 78 625 96 35
+Phone: 08143 / 444 790
 
 ----
 
-Mail: marcrenegeiser@gmail.com
+Mail: kontakt@wm-it-services.de
 
 ----
 
 Address: 
 
-Hinterkirchweg 3
-4106 Therwil
+Schmautzer-Büchl-Weg 13
+82266 Inning
 
 ----
 
-Fonts: <link href="https://fonts.googleapis.com/css?family=Open+Sans:300|Ubuntu:300" rel="stylesheet">
+Fonts: <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto+Slab" rel="stylesheet">
 
 ----
 
-Ffh: 'Ubuntu', sans-serif;
+Ffh: 'Roboto Slab', serif
 
 ----
 
@@ -45,11 +45,15 @@ Icons: <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome
 
 ----
 
-Bgimg: aesch.jpg
+Bgimg: 
 
 ----
 
-Bantyp: dyn
+Bantyp: stat
+
+----
+
+Cssfile: wmit
 
 ----
 
@@ -57,19 +61,7 @@ Showfz: extended
 
 ----
 
-Logo: 
-
-----
-
-Cssfile: velove
-
-----
-
-Pgcontact: contact
-
-----
-
-Pgimpr: 
+Pgimpr: impressum
 
 ----
 
@@ -77,16 +69,24 @@ Pgagb:
 
 ----
 
-Facebook: 
+Pgcontact: kontakt
 
 ----
 
-Twitter: 
+Logo: usb_icon.svg
 
 ----
 
-Linkedin: 
+Facebook: https://www.facebook.com/marcrene.geiser
 
 ----
 
-Pinterest: 
+Twitter: https://twitter.com/KurierZentrale
+
+----
+
+Linkedin: https://www.linkedin.com/in/marcrenegeiser/
+
+----
+
+Pinterest: https://www.pinterest.com/marcrenee/

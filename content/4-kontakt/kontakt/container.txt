@@ -6,7 +6,7 @@ Pagesettings:
 
 ----
 
-Title: Container 1
+Title: Kontakt
 
 ----
 
@@ -26,11 +26,11 @@ Bgimg:
 
 ----
 
-Subline: Subline
+Subline: 
 
 ----
 
-Text: Haupttext
+Text: Hier Kontaktdaten einfügen
 
 ----
 
@@ -39,14 +39,6 @@ Previewsettings:
 ----
 
 Prewshow: ohne
-
-----
-
-Prewvon: 2016-10-26
-
-----
-
-Prewbis: 
 
 ----
 
