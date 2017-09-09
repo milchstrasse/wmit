@@ -1,0 +1,83 @@
+// ---------------------------------------------------- Header
+
+header[role=banner]{
+  border-bottom: 1px solid black;
+  @include abst_padding;
+  
+  background-color: rgba(0,0,0, 0.5);
+  p, a, a:visited{
+    color: rgba(255,255,255, 0.8);
+  }
+  
+  .bannavi{
+    @include type-setting(0);
+    line-height: $base-line-height * 4;
+  }
+  
+  li{
+    display: inline-block;
+    transition: background 0.5s ease;
+    &:hover{
+      text-decoration: none;
+      background: $button-nav-hover-color;
+      a{
+        color: white;
+      }
+    }
+    }
+     li a{
+      @include type-setting(0);
+    }
+  }
+  .dyn li{
+    @include abst_margin(1);
+    background-color: $button-nav-color;
+  }
+  .stat li{
+  }
+
+.banpageinfo span{
+  margin-left: $abst_l;
+}
+
+
+// ---------------------------------------------------- Main
+
+article{
+  background-color: white;
+  
+  header{
+//    @include abst_padding;
+    margin-bottom: $base-line-height * 2;
+    h1{
+      @include type-setting(3);
+    }
+    .subline{
+      @include type-setting(1);
+    }
+    
+  }
+  .content{
+  }
+  .zweiSpalten .newarea{
+    @include abst_padding;
+  }
+}
+
+
+// ----------------------------------------------------- Main -> spezielle Container
+// --------------------------------------------- Ticker
+.con_ticker{
+  margin: $abst_o 0 $abst_u 0;
+  &.accent .ticker-wrap{
+    background-color: #002e39;
+    color: white;
+  }
+}
+.ticker-wrap{
+  border: $abst_u solid white;
+  p {
+    @include type-setting(1);
+    margin-bottom: 0;
+  }
+}

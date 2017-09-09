@@ -1,0 +1,88 @@
+//// Das ist das ganze Feld, das die Navigation anzeigt
+//  .navarea{
+//    justify-content: center;
+//    .areas{
+//      address, .mail{
+//        margin: 0 auto;
+//
+//        @include phone {
+//        width: $con_breite_phone;
+//      }
+//
+//      @include tablet {
+//        width: $con_breite_tablet;
+//      }
+//
+//      @include desktop {
+//        width: $con_breite_desktop;
+//      }
+//
+//      @include bigscreen {
+//        width: $con_breite_desktop;
+//      }
+//
+//      max-width: $con_breite_max;
+//      display: none;
+//      font-style: normal;
+//      text-align: left;
+//      @include abst_padding(1);
+//
+//      p{
+//        padding-bottom: $abst_u;
+//        line-height: $base-line-height *2;
+//      }
+//      }
+//    }
+//    &.dyn{
+//      .areas{
+//        max-height: 0;
+//        overflow: hidden;
+//        transition: all $transition-dauer ease-in-out;
+//        transition-delay:$transition-delay;
+//      }
+//      .menu{
+//        display: flex;
+//        justify-content: center;
+//        flex-wrap: wrap;    
+//      }
+//      li {
+//        flex: 1 0 6 * $grid;
+//        max-width: 8 * $grid;
+//        a{
+//          @include abst_padding(1);
+//          display: block;
+//        }
+//      }
+//    }
+//        
+//    &.stat{
+//      .menu{
+//        display: flex;
+//        justify-content: center;
+//        flex-wrap: wrap;    
+//      }
+//      li {
+//        a{
+//          @include abst_padding(1);
+//          display: block;
+//        }
+//        &.active{
+//        }
+//      }
+//    }
+//  }
+//  .toggle-menu a{
+//      transition: all $transition-dauer ease-in-out;
+////      @include transition-delay($transition-delay*.5);
+//  }
+//  &:hover{
+//    .dyn .areas{
+//    max-height: 90vh;
+//    }
+//    .toggle-menu a{
+//      color: mycolor('akzent');
+//    }
+//  } 
+
+
+  

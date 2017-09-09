@@ -1,0 +1,55 @@
+.lphero{
+  background-color: salmon;
+  //Hintergrundbild etwas einfärben
+    &:before {
+    content: '';
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+//  background-color: salmon;
+  background-image: linear-gradient(
+    rgba(0,0,0,0.5),
+    rgba(0,0,0,0.2) 20%,
+    rgba(0,0,0,0.2) 80%,
+    rgba(0,0,0,0.5)
+    );
+	opacity: .6; 
+  }
+}
+
+// -------------------- Header
+header[role=banner]{
+  padding-top: 10px;
+  a{
+    color: mycolor-level('akzent',2);
+  }
+  a:hover{
+    color: mycolor-level('akzent',0);
+  }
+  .bannavi div{
+    margin-left: 20px;
+  }
+  .breadcrumbs{
+    color: $color-dark2;
+  }
+}
+// -------------------- main
+
+//.hero h1{
+//  font-size: 5rem;
+//  line-height: 5rem;
+//}
+
+// -------------------- Footer
+
+footer[role=contentinfo]{
+  a{
+    color: $color-light2;
+  }
+  a:hover{
+    color: $color-light;
+  }
+}
+

@@ -1,0 +1,163 @@
+html{
+  h1,h2{
+    font-weight: 200;
+  }
+  h3,h4{
+    font-weight: 700;
+  }
+}
+header[role=banner]{
+
+  .navareas a{
+    text-decoration: none;
+    font-family: $ff-head;
+  }
+}
+
+main{
+  color: $color-light;
+}
+// ----------------- Bereich
+.bereich{
+  margin-top: 4 * $base-line-height;
+}
+// ----------------- Anforderungen stylen
+.abschnitt{
+  margin-top: $abst_o * 2;
+  margin-bottom: $abst_u;
+}
+.anforderung{
+  background-color: mycolor-level('hintergrund', 2);
+//  min-height: $base-line-height * 4;
+  margin: ($base-line-height * 3) (- $grid) ($base-line-height * 3) (- $grid);
+  transition: all 0.3s;
+  box-shadow: 5px 5px 10px $color-dark2;
+  color: $color-dark;
+  
+  .slidebar{
+    background-color: mycolor('vordergrund');
+    .iconbar i:last-child:hover{
+        color: mycolor('hover');
+      }
+    .info{
+      background-color: mycolor('vordergrund');
+      width: 16em;
+    &:hover{
+      width: 16em;
+    }
+      
+    }
+    .titel{
+      background-color: mycolor('vordergrund');
+      border-left: 1px solid $color-dark2;
+      @include padding_box(1);
+    }
+    .iconbar i:hover {
+      color: mycolor('hover');
+//      transition: all 0.3s;
+    }
+  }
+  
+  &.hide {
+    box-shadow: none;
+    margin: ($base-line-height * 1) 0 ($base-line-height * 1) 0;
+    
+    .info{
+      background-color: mycolor('sekundaer');
+      width: 3rem;
+    }
+    .anf-body{
+    display: none;
+    }
+  }
+  .anf-body{
+    background-color: mycolor('vordergrund');
+    border-top: 1px solid rgba(0, 0, 0, 0.48);
+    padding: $base-line-height $grid * 2 ;
+    min-height: $base-line-height * 6;
+    overflow: hidden;
+//    transition: all 0.3s;
+    display: block;
+  }
+}
+
+.modal {
+  .modal-inner {
+    max-width: 60em;
+    .modal-intro{
+      columns: 1;
+      display: flex;
+      justify-content: space-between;
+      color: mycolor('dunkel2');
+
+      .abschnitt{
+        font-weight: 200;
+        padding-left: $abst_r;
+      }
+
+      i{
+        color: $color-dark2;}
+      i.m-close:hover{
+          color: orangered;
+          cursor: pointer;
+        }
+      div.bereichwaehlen{
+        flex: 1 0 450px;
+        display: flex;
+        justify-content: flex-start;
+      }
+    }
+    div.dropdown-container{
+      flex: 1 1 200px;
+      margin-right: $abst_r;
+      transition: all 0.3s;
+    }
+    p.dropdown-description,
+    p.dropdown-button{
+      line-height: $base-line-height * 4;
+    }
+    p.dropdown-button{
+      font-weight: 700;
+    }
+
+    .metawaehlen {
+      display: flex;
+      align-items: center;
+      div.dropdown{
+        padding-left: $grid;
+      }
+    }
+    #mod_bereich{
+      display: flex;
+      align-items: center;
+    }
+  }
+//  .titlebar{
+//  //    display: flex;
+//  //    align-items: center;
+//    h3{
+//      flex: 5 0 200px;
+//    }
+//  }
+  .meta{
+    display: flex;
+    justify-content: flex-start;
+    align-items: baseline;
+    i{
+      flex: 0 0 3em;
+      color: mycolor('dunkel2');
+    }
+  }
+  input {
+    float: right;
+  }
+}
+
+
+/* ======================================== Testarea */
+
+#slideoff-balken{
+  .slidebar{
+    color: black;
+  }
+}

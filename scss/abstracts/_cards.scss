@@ -1,0 +1,27 @@
+//http://empties.bourbon.io/
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  
+  .card {
+    flex: 1 1 20vw;
+    margin: 1em;
+    display: inline-block;
+        
+    &:hover{
+      transition: all ease $transition-dauer;
+      box-shadow: 04px 4px 4px -2px $color-dark2;
+    }
+  }
+  
+  .card-image {
+    overflow: hidden;
+
+    img {
+      width: 100%;
+      padding-bottom: $base-line-height*2;
+    }
+  }
+}

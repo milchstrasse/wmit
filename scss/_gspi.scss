@@ -1,0 +1,20 @@
+// neue Defaultdatei für gspi Theme:velove                
+// 18.03.2017 - 16:38:30 Uhr                      
+//                                                  
+// ----------------------------------------------   
+// parameter1 (theme) parameter2 (custom)           
+// parameter1 (velove) parameter2 (gspi)                  
+//                                                  
+// ----------------------------------------------   
+//                                                  
+@import "bourbon/bourbon";                          
+@import "base/base";                                
+@import "neat/neat";                              
+//                                                  
+@import "themes/velove/variables";                      
+@import "custom/gspi_variables";                      
+//                                                  
+@import "partials";                                 
+//                                                  
+@import "themes/velove/base";                           
+@import "custom/gspi_layout";                         

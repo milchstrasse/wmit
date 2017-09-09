@@ -1,0 +1,155 @@
+// Hintergundbild für die ganze Longpage (fixiert und auf die Grösse des Bildschirms angepasst)
+.lphero{
+  min-height: 100vh;
+  width: 100vw;
+  background-size: cover;
+  background-position: center, center;
+  position: fixed;
+  z-index: -1;
+  top: 0;
+  overflow-y: scroll;
+//  background-color: $color-dark2;
+}
+
+
+.wrapper{
+  min-height: 100%;
+  display: grid;
+//  grid-template-columns: 1fr 90% 1fr;
+//  grid-template-columns: 2vw auto 2vw;
+  grid-template-rows: auto auto 1fr auto;
+  grid-template-areas: 
+    "header"
+    "navarea"
+    "content"
+    "footer";
+//  grid-auto-rows: minmax(200px auto);
+//  grid-auto-rows: minmax(3rem, auto);
+//  background-color: aliceblue;
+}
+
+header[role=banner]{
+  display: grid;
+  grid-template-columns: 2vw 1fr 1.618fr 1.618fr 1fr 2vw;
+  grid-template-rows: auto 20px; 
+  &>div{
+    align-items: center;
+  }
+}
+footer[role=contentinfo]{
+  display: grid;
+  grid-template-columns: 2vw 1fr 1.618fr 1.618fr 1fr 2vw;
+  &>div{
+    align-items: center;
+  }
+}
+// -------------------------------------------------------------- header
+header[role=banner]{
+  grid-area: header;
+}
+  .banpageinfo{
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+
+  }
+  .banlogo{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+
+  }
+  .bannavi{
+    grid-column-start: 4;
+    grid-column-end: 6;
+    grid-row-start: 1;
+    grid-row-end: 2;
+
+    display: flex;
+    justify-content:flex-end;
+    align-content: center; 
+  }
+  .breadcrumbs{
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+  }
+
+.navareas{
+  grid-area: navarea;
+  display: none;
+}
+
+// -------------------------------------------------------------- main
+main{
+  grid-area: content;
+  
+  .container.hero {
+    height: 100%;
+//    background-color: coral;
+    
+    article{
+      height: 100%;
+      display: grid;
+      grid-template-columns: 2vw 1fr 1.618fr 2vw;
+      grid-template-rows: 1fr 0.618fr 1.618fr;
+      grid-template-areas: 
+        "... ... .."
+        "... ... ueberschrift"
+        "... ... content"
+        ;
+//      align-items: center;
+//      background-color: orange;
+      
+    header{
+      grid-area: ueberschrift;
+//      background-color: aquamarine;
+    }
+    .content{
+      grid-area: content;
+//      background-color: $color-dark2;
+    }
+    }
+  }
+  
+  .container.zweiSpalten article{
+    display: grid;
+    grid-template-columns: 2vw 1fr 1.618fr 2vw;
+    grid-template-areas: 
+      "nix ueberschrift content";
+    
+    header{
+      grid-area: ueberschrift;
+    }
+    .content{
+      grid-area: content;
+    }
+  }
+  
+
+}
+
+
+
+
+
+// -------------------------------------------------------------- footer
+footer{
+  grid-area: footer;
+  .footer-primary-links{
+    grid-column-start: 4;
+    grid-column-end: 5;
+  }
+  .footer-secondary-links{
+    grid-column-start: 5;
+    grid-column-end: 6;
+    display: flex;
+    justify-content: space-between;
+  }
+  ul{
+    display: flex;
+  }
+}

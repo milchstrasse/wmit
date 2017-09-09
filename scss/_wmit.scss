@@ -1,0 +1,22 @@
+// neue Defaultdatei für wmit Theme:brut                
+// 10.03.2017 - 21:20:47 Uhr                      
+//                                                  
+// ----------------------------------------------   
+// parameter1 (theme) parameter2 (custom)           
+// parameter1 (brut) parameter2 (wmit)                  
+//                                                  
+// ----------------------------------------------   
+//                                                  
+@import "bourbon/bourbon";                          
+@import "base/base";                                
+@import "neat/neat";                              
+//                                                  
+@import "themes/brut/variables";                      
+@import "custom/wmit_variables";                      
+//                                                  
+@import "partials";                                 
+//                                                  
+@import "themes/brut/base";                           
+@import "custom/wmit_layout";                         
+
+

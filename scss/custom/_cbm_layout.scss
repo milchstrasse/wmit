@@ -1,0 +1,81 @@
+body{
+//  overflow-y: hidden;
+}
+////// ---------------------------------------------------- Header
+.lphero{
+  background-position: top, right;
+}
+header[role=banner]{
+  .bannavi{
+    display: none;
+  }
+  .breadcrumbs{
+    font-size: 12px;
+    background-color: mycolor('akzent');
+  }
+}
+
+footer{
+  background-color: transparent;
+  padding: 0.5em;
+  div{
+    padding: 0 2em;
+  }
+  a{
+    color: mycolor('sekundaer');
+  }
+}
+
+//// ----------------------------------------------------- Cards
+.card{
+  background-color: white;
+  border-radius: 5px;
+  border: 1px solid $color-dark2;
+  
+  max-width: 200px;
+  min-width: 150px;
+  
+  header{
+    background-color: mycolor('primaer');
+    padding: 1em;
+    border-radius: 3px;
+    margin: 5px;
+    color: white;
+    
+  }
+  h1{
+    @include type-setting(1);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+  }
+  
+  h2, .card-body{
+    display: none;
+  }
+}
+
+//// ----------------------------------------------------- einzelne Seiten anders
+#home{
+  header[role=banner]{
+    .bannavi, .breadcrumbs{
+      display: none;
+    }
+    .banpageinfo{
+      flex: 1 0 100vw;
+      justify-content: center;
+      border-bottom: 6px;
+      border-bottom-style: solid;
+      border-bottom-color: mycolor('akzent');
+      
+      h1{
+//        font-size: 8vw;
+        font-size: 60px;
+        line-height: 1.5;
+        text-align: center;
+        margin-top: 20vh;
+        color: rgba(253, 253, 253, 0.5);
+      }
+      // Responsive einbauen, Schriftgrösse nicht unter 32px
+    }
+  }
+}

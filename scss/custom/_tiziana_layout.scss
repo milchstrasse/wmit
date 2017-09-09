@@ -1,0 +1,116 @@
+//// ---------------------------------------------------- Header
+// Allgemein
+.accent{
+  color: mycolor('akzent');
+}
+
+header[role=banner]{
+
+  background-color: rgba(255,255,255, 0.9);
+//  
+  h1{
+    @include type-setting(1);
+//    color: mycolor('akzent');
+    
+  }
+  a, a:visited{
+    color: rgba(0,0,0, 0.9);
+  }
+  color: rgba(0,0,0, 0.9);
+
+  &:hover .areas{
+    padding-top: $abst_o * 4;
+    padding-bottom: $abst_o * 4;
+  }
+  
+  li{
+    @include abst_margin(1);
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid rgba(0,0,0, 0.2);
+  
+    &.active{
+      background: $button-nav-active-color;
+      a{
+        color: white;
+      }
+    }
+  }
+}
+//// ---------------------------------------------------- Main
+.container{
+  margin-top: $base-line-height * 6; 
+}
+article{
+  a{
+    text-decoration: none;
+    color: mycolor-level('akzent', -4);
+  }
+  
+  a:hover{
+    text-decoration: underline;
+    color: mycolor-level('akzent', -1);
+  }
+  
+  border-radius: 0.45rem;
+  @include abst_padding(4);
+  
+  background-color: rgba(255,255,255, 0.8);
+  
+  
+  p, .el_figure{
+    margin-bottom: $base-line-height * 2;
+  }
+  
+  header{
+    margin-right: $abst_r*2;
+    h1{
+      @include type-setting(2);
+      
+    }
+    p, .el_figure{
+      font-family: 'Dosis', sans-serif;
+//      margin-top: $base-line-height * 2;
+      @include type-setting(1);
+    }
+    
+  }
+  .content{
+    margin-left: $abst_l*2;
+    .textarea{
+      padding-top: 3px;  //Korrektur, damit alle Zeilen exakt ausgerichtet sind
+    }
+    h1{
+      @include type-setting(1);
+      
+      &:first-child{
+        margin-top: 0.8em;
+      }
+    }
+    h2,h3,h4{
+      @include type-setting(0);
+    }
+  }
+}
+
+.customfz{
+  margin-top: 20*$base-line-height;
+  article{
+    background-color: rgba(173,211,31, 0.8);
+  }
+  
+    p, a{
+      @include type-setting(0);
+      color: white !important;  
+    }
+  h1, h2{
+    color: white;
+  }
+  h1{
+    @include type-setting(1);
+  }
+}
+
+footer[role="contentinfo"]{
+    background-color: transparent !important;
+}

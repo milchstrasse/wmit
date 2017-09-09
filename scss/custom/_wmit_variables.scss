@@ -1,0 +1,32 @@
+//  Farben
+// https://scotch.io/tutorials/aesthetic-sass-2-colors
+
+// die Farben werden weiterverarbeitet in 
+// scss/abstracts/_colors.scss
+
+// Anwendungsbeispiele:
+// background-color: mycolor('vordergrund');
+// background-color: mycolor-level('hintergrund', 2);
+// level --> mit minus = dunkler, ohne = heller
+
+
+$mycolors: (
+  'primaer'     : #4ca4fd, 
+  'sekundaer'   : #00f798,
+  'akzent'      : #477DCA,
+  'hover'       : #ff4500,
+  
+  'vordergrund' : rgba(255, 255, 255, 1),
+  'hintergrund' : rgb(1, 185, 175),
+  'footer'      : #477DCA,
+  
+  'dunkel2'     : rgba(0, 0, 0, 0.4)
+);
+
+
+
+// Schriftfarben. Vornehmlich mit etwas Transparenz
+$color-dark   : rgba(0, 0, 0, 0.7);
+$color-dark2   : rgba(0, 0, 0, 0.4);
+$color-light  : rgba(255, 255, 255, 0.9);
+$color-light2  : rgba(255, 255, 255, 0.4);

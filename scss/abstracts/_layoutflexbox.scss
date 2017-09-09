@@ -1,0 +1,50 @@
+.wrapper{
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main{
+  flex: 1;
+}
+header{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: stretch;
+  &>div{
+    flex: 1 1 auto;
+    display: flex;
+    align-items: center;
+  }
+  .banpageinfo{
+//    background-color: aqua;
+  }
+  .banlogo{
+//    background-color: aquamarine;
+  }
+  .bannavi{
+//    background-color: cadetblue;
+  }
+  .breadcrumbs{
+    flex: 1 0 100vw;
+//    width: 100vw;
+//    background-color: coral;
+  }
+}
+.navareas{
+  display: none;
+}
+footer{
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+
+  .footer-primary-links{
+//    background-color: salmon;
+  }
+  
+  .footer-secondary-links{
+//    background-color: aqua;
+  }
+}

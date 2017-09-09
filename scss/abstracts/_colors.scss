@@ -1,0 +1,32 @@
+// Farbe zuweisen, Beispiel
+// $button-color: scotch-color('primary'); // #8e3329
+
+@function mycolor($key: 'hintergrund') {
+  @return map-get($mycolors, $key);
+}
+
+$color-interval: 10% !global;
+
+@function mycolor-level($color-name: 'primary', $level: 0) {
+  $color: mycolor($color-name);
+  $color-base: if($level < 0, black, white);
+  $level: if($level < 0, $level * -1, $level); // negatives Level in Positives wandeln
+
+  @return mix($color-base, $color, $level * $color-interval);
+}
+
+// Example:
+//.panel {
+//  background-color: mycolor-level('primary', 2);
+//}
+
+
+// Helle oder dunkle Schrift, je nach Hintergrund automatisch
+
+@function set-text-color($color) {
+  @if (lightness($color) > 20) {
+    @return $color-dark; // Lighter background, return dark color
+  } @else {
+    @return $color-light; // Darker background, return light color
+  }
+}

@@ -1,0 +1,85 @@
+/* MRG
+
+Variablen werden in abstracts/* verwendet
+
+24.10.2016 Gospelchor Inning
+
+*/
+
+//    Farben
+$button-nav-hover-color: none;
+
+// die Farben werden weiterverarbeitet in 
+// scss/abstracts/_colors.scss
+
+// Anwendungsbeispiele:
+// background-color: mycolor('vordergrund');
+// background-color: mycolor-level('hintergrund', 2);
+// level --> mit minus = dunkler, ohne = heller
+
+
+$mycolors: (
+  'primaer'     : #4ca4fd, 
+  'sekundaer'   : #00f798,
+  'akzent'      : #477DCA,
+  'hover'       : #ff4500,
+  
+  'vordergrund' : rgba(255, 255, 255, 1),
+  'hintergrund' : rgb(1, 185, 175),
+  'footer'      : #477DCA,
+  
+  'dunkel2'     : rgba(0, 0, 0, 0.4)
+);
+
+
+
+// Schriftfarben. Vornehmlich mit etwas Transparenz
+$color-dark   : rgba(0, 0, 0, 0.7);
+$color-dark2   : rgba(0, 0, 0, 0.4);
+$color-light  : rgba(255, 255, 255, 0.9);
+$color-light2  : rgba(255, 255, 255, 0.4);
+
+
+//    Layout allgemein
+$lay_textarea_maxbreite: 35rem;
+
+$base-font-size: 1rem;
+$base-line-height: $base-font-size * 1.2 / 2; // wichtig für vertical Rhythm
+$ratio: 1.25; // Verhältnisse, z.B goldener Schnitt (1.618)
+
+// Schriftverhältnisse
+$type-scale: (
+  -1: 0.8rem,
+  0: 1rem ,
+  1: 1rem * $ratio,
+  2: 1rem * $ratio*$ratio, // es gibt wohl keine exponentialfunktion in sass...
+  3: 1rem * $ratio*$ratio*$ratio
+);
+
+$line-heights: (
+  -1: $base-line-height * 1,
+  0: $base-line-height * 2,
+  1: $base-line-height * 3,
+  2: $base-line-height * 4,
+  3: $base-line-height * 4
+);
+
+  // Abstände
+$abst_o: 1 * $base-line-height;
+$abst_r: 0.5rem * $ratio;
+$abst_u: 1 * $base-line-height;
+$abst_l: 0.5rem * $ratio;
+
+//    container
+
+// Breitenverhältnis Header -> Content (Flex Grow)
+$con_header: 1;
+$con_content: $ratio;
+
+$con_breite_phone: 90%;
+$con_breite_tablet: 90%;
+$con_breite_desktop: 80%;
+$con_breite_max: 1300px;
+
+//$con_breite_header: 40%;  // Breite des Headers
+//$con_breite_content: 100% - $con_breite_header;  // Breite des Contents

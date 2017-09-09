@@ -1,0 +1,138 @@
+// Allgemeine Styles
+body{
+  background-color: mycolor('hintergrund');
+//  background-color: white;
+  color: set-text-color(mycolor('hintergrund'));
+  
+  a{
+    color: set-text-color(mycolor('hintergrund'));
+  }
+}
+
+// ---------------------------------------------------- Navi
+header[role=banner]{
+  padding: $abst_o $abst_r $abst_u $abst_l;
+  color: set-text-color(mycolor('akzent'));
+  text-align: right;
+  &:after{
+    background-color: salmon;
+    height: 4rem;
+  }
+  a{
+    color: set-text-color(mycolor('akzent'));
+  }
+  h1{
+    @include type-setting(3); 
+    margin-bottom: $abst_u * 1;
+  }
+}
+
+.bannavi{
+  margin-left: $abst_l * 3;
+}
+
+.navareas{
+  background-color: mycolor('sekundaer');
+  
+  .logo{
+    margin: $abst_o * 4 $abst_l * 2;
+    text-align: center;
+    
+  }
+  .menu li{
+//    margin-left: $abst_l * 4;
+    @include type-setting(1); 
+    margin-bottom: 0;
+    padding: $abst_o * 2 $abst_l * 4;
+    
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    display: block;
+    &:first-child{
+      border-top: 1px solid rgba(0, 0, 0, 0.1);
+    }
+    a{
+      display: block;
+    }
+    &:hover{
+      background-color: mycolor-level('sekundaer', -1);
+      a{
+        color: set-text-color(mycolor('akzent'));
+      }
+    }
+  }
+  
+  address{
+    @include abst_margin(4);
+    font-style: normal; 
+  }
+  
+  .mail{
+    @include abst_margin(4);
+  }
+}
+
+.stat {
+  .logo {
+    display: none;
+  }
+  .menu li{
+    @include type-setting(0); 
+    padding: $abst_o * 1 $abst_l * 2;
+  }
+}
+
+.side {
+  
+}
+.areas{
+  margin-top: $base-line-height * 6;
+  margin-left: $abst_l * 2;
+  text-align: left;
+}
+
+// ---------------------------------------------------- Main
+
+main > h1{
+  text-align: right;
+  padding-right: $abst_r;
+  padding-bottom: $abst_u * 4;
+  
+}
+
+.container,
+.con_design{
+    // Abstand oben beim ersten Container
+  &.first{
+    margin-top: $abst_u*3;
+  }
+  .newarea{
+    flex: 1 1 100%;
+  }
+  
+}
+
+// ---------------------------------------------------- Modal Forms
+.modal textarea{
+  height: 30vh;
+  min-height: 3rem;
+}
+
+// --------------------------------------------------- Container
+
+// --------------------------------------------------- spezielle Elemente
+
+.card{
+  padding: 1rem;
+  border: 1px solid $color-dark;
+}
+
+a.button{
+  border: 1px solid $color-dark;
+  @include abst_padding(2);
+  display: inline-block;
+  
+  &:hover{
+      background-color: mycolor-level('sekundaer', -5);
+      color: $color-light;
+  }
+}

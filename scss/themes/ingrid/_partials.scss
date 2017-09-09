@@ -1,0 +1,43 @@
+// marcrenegeiser
+// default scss
+// 
+// hat schon Bourbon und Variablen geladen
+//
+//
+@import "../../abstracts/reset";
+@import "../../abstracts/mediaqueries";
+//@import "abstracts/mixins";
+//
+@import "../../abstracts/verticalrhytm"; // Schriftgrössen, vertikale Abstände
+@import "../../abstracts/colors";
+@import "../../abstracts/gridlayout";
+//
+//@import "../../abstracts/banner"; Banner wird im gridlayout gesteuert
+//@import "abstracts/navarea";
+//
+
+// Spezielle Elemente
+//@import "abstracts/ticker";
+//@import "abstracts/designprew";
+//@import "abstracts/modal";
+//@import "abstracts/badges";
+//@import "abstracts/dropdown";
+//@import "abstracts/slideBar";
+//@import "abstracts/cards";
+
+//
+//@import "abstracts/footer";
+//
+//bourbon refills
+
+//@import "abstracts/footerExt";  
+
+//
+//
+//@import "abstracts/container";
+//
+
+// weiter mit Layout für Themes und Customer laden
+
+
+

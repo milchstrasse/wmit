@@ -1,0 +1,22 @@
+//
+$base-line-height: $base-font-size * 1.25 / 2; //
+
+//  Farben
+// https://scotch.io/tutorials/aesthetic-sass-2-colors
+
+$mycolors: (
+  'primaer'     : rgba(0, 0, 0, 0.8), 
+  'akzent'      : #ff2767,
+  'sekundaer'   : #CDDC39,
+  'vordergrund' : #191919,
+  'hintergrund' : #ff4700
+);
+
+// Schriftfarben. Vornehmlich mit etwas Transparenz
+$color-dark   : rgba(0, 0, 0, 0.8);
+$color-light  : rgba(255, 255, 255, 0.8);
+
+
+
+$button-nav-hover-color: #DCE775;
+$button-nav-active-color: #CDDC39;

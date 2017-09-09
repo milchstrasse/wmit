@@ -1,0 +1,71 @@
+// inspired by https://scotch.io/tutorials/aesthetic-sass-3-typography-and-vertical-rhythm
+
+// MRG 23.10.2016
+
+
+
+
+html {
+  @include phone{
+    font-size: 14px;
+  }
+
+  @include tablet {
+    font-size: 14px;
+  }
+
+  @include desktop {
+    font-size: 16px;
+  }
+  
+  @include bigscreen {
+    font-size: 16px;
+  }
+}
+
+//    Schriftverhältnisse
+$type-scale: (
+  -1: 1rem * 0.8,
+  0: 1rem ,
+  1: 1rem * $ratio,
+  2: 1rem * $ratio*$ratio, // es gibt wohl keine exponentialfunktion in sass...
+  3: 1rem * $ratio*$ratio*$ratio
+);
+
+$line-heights: (
+  -1: $base-line-height * 2,
+  0: $base-line-height * 2,
+  1: $base-line-height * 3,
+  2: $base-line-height * 4,
+  3: $base-line-height * 5
+);
+
+
+@function type-scale($level) {
+  @return map-get($type-scale, $level);
+}
+
+// Again, we can make a helper function:
+@function line-heights($level) {
+  @return map-get($line-heights, $level);
+}
+
+@mixin type-setting($level: 0) {
+  font-size: type-scale($level);
+  line-height: line-heights($level);
+}
+
+// Angewendet (Faktor in custom/[name]/variables definieren)
+
+h1{ 
+  @include type-setting(2); 
+//  margin-bottom: $abst_u * 2;
+}
+h2{ 
+  @include type-setting(1); 
+//  margin-bottom: $abst_u;
+}
+p,li{ 
+  @include type-setting(0); 
+//  margin-bottom: $abst_u;
+}

@@ -1,0 +1,49 @@
+.slidebar{
+  margin: 0 auto;
+  
+  .slidecontent{
+    display: flex;
+    cursor: pointer;
+  }
+  
+  .info{
+    display: flex;
+    align-items: center;
+    width: 3em;
+    transition: all 0.3s;
+    div{
+      padding: 0 1em;
+      min-width: 15rem;
+    }
+    i{
+      padding: 0 1em;
+    }
+    &:hover{
+      width: 12em;
+    }
+  }
+  
+  .titel{
+    flex: 1 1 auto;
+    align-items: stretch;
+    width:  100%;
+    overflow: hidden;
+//    background-color: white;
+    padding-left: 2em;
+    
+    h2{
+      margin-bottom: 0;
+      min-width: 20em;
+      }
+    }
+  
+  .iconbar{
+    display: flex;
+    align-items: center;
+    right: 0;
+    i{
+      padding-right: 1rem;
+    }
+  }
+}
+  

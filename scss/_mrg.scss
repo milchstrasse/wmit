@@ -1,0 +1,21 @@
+// neue Defaultdatei für mrg Theme:brut                
+// 20.03.2017 - 22:13:31 Uhr                      
+//                                                  
+// ----------------------------------------------   
+// parameter1 (theme) parameter2 (custom)           
+// parameter1 (brut) parameter2 (mrg)                  
+//                                                  
+// ----------------------------------------------   
+//                                                  
+@import "bourbon/bourbon";                          
+@import "base/base";                                
+@import "neat/neat";                              
+//                
+@import "abstracts/variables";
+@import "themes/ingrid/variables";                      
+@import "custom/mrg_variables";                      
+//                                                  
+@import "themes/ingrid/partials";                                 
+//                                                  
+@import "themes/ingrid/base";                           
+@import "custom/mrg_layout";                         

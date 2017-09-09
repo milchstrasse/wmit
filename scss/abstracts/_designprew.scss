@@ -1,0 +1,134 @@
+//.con_design{
+//  table 
+//  {
+//    display: flex;
+//    
+//    td{
+//      height: 100px;
+//      flex: 1 1 auto;
+//      width: 200px;
+//      text-align: right;
+//      @include abst_padding(1);
+//      transition: width 0.3s ease-in-out;
+//      
+//      &:hover{
+////        flex: 500px 0 auto;
+//        width: 5000px;
+////        background-color: red !important;
+//        
+//      }
+//    }
+//  }
+//  
+//  .primaer{
+//    $tdcolor: 'primaer';
+//    td:nth-child(1){
+//      background-color: mycolor-level($tdcolor, -5);
+//    }
+//    td:nth-child(2){
+//      background-color: mycolor-level($tdcolor, -4);
+//    }
+//    td:nth-child(3){
+//      background-color: mycolor-level($tdcolor, -3);
+//    }
+//    td:nth-child(4){
+//      background-color: mycolor-level($tdcolor, -2);
+//    }
+//    td:nth-child(5){
+//      background-color: mycolor-level($tdcolor, -1);
+//    }
+//    td:nth-child(6){
+//      background-color: mycolor-level($tdcolor, 0);
+//      width: 5000px;
+//    }
+//    td:nth-child(7){
+//      background-color: mycolor-level($tdcolor, 1);
+//    }
+//    td:nth-child(8){
+//      background-color: mycolor-level($tdcolor, 2);
+//    }
+//    td:nth-child(9){
+//      background-color: mycolor-level($tdcolor, 3);
+//    }
+//    td:nth-child(10){
+//      background-color: mycolor-level($tdcolor, 4);
+//    }
+//    td:nth-child(11){
+//      background-color: mycolor-level($tdcolor, 5);
+//    }
+//  }
+//  .akzent{
+//    $tdcolor: 'akzent';
+//    td:nth-child(1){
+//      background-color: mycolor-level($tdcolor, -5);
+//    }
+//    td:nth-child(2){
+//      background-color: mycolor-level($tdcolor, -4);
+//    }
+//    td:nth-child(3){
+//      background-color: mycolor-level($tdcolor, -3);
+//    }
+//    td:nth-child(4){
+//      background-color: mycolor-level($tdcolor, -2);
+//    }
+//    td:nth-child(5){
+//      background-color: mycolor-level($tdcolor, -1);
+//    }
+//    td:nth-child(6){
+//      background-color: mycolor-level($tdcolor, 0);
+//      width: 5000px;
+//    }
+//    td:nth-child(7){
+//      background-color: mycolor-level($tdcolor, 1);
+//    }
+//    td:nth-child(8){
+//      background-color: mycolor-level($tdcolor, 2);
+//    }
+//    td:nth-child(9){
+//      background-color: mycolor-level($tdcolor, 3);
+//    }
+//    td:nth-child(10){
+//      background-color: mycolor-level($tdcolor, 4);
+//    }
+//    td:nth-child(11){
+//      background-color: mycolor-level($tdcolor, 5);
+//    }
+//  }
+//    .sekundaer{
+//    $tdcolor: 'sekundaer';
+//    td:nth-child(1){
+//      background-color: mycolor-level($tdcolor, -5);
+//    }
+//    td:nth-child(2){
+//      background-color: mycolor-level($tdcolor, -4);
+//    }
+//    td:nth-child(3){
+//      background-color: mycolor-level($tdcolor, -3);
+//    }
+//    td:nth-child(4){
+//      background-color: mycolor-level($tdcolor, -2);
+//    }
+//    td:nth-child(5){
+//      background-color: mycolor-level($tdcolor, -1);
+//    }
+//    td:nth-child(6){
+//      background-color: mycolor-level($tdcolor, 0);
+//      width: 5000px;
+//    }
+//    td:nth-child(7){
+//      background-color: mycolor-level($tdcolor, 1);
+//    }
+//    td:nth-child(8){
+//      background-color: mycolor-level($tdcolor, 2);
+//    }
+//    td:nth-child(9){
+//      background-color: mycolor-level($tdcolor, 3);
+//    }
+//    td:nth-child(10){
+//      background-color: mycolor-level($tdcolor, 4);
+//    }
+//    td:nth-child(11){
+//      background-color: mycolor-level($tdcolor, 5);
+//    }
+//  }
+//}
